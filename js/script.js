@@ -38,4 +38,29 @@
     console.log(d1,d2,d3,d4);
 }
 
+{
+    /*Найти максимум из двух чисел */
+    let x, y, max;
+    x = parseFloat(prompt("Введите первое число"));
+    y = parseFloat(prompt("Введите второе число"));
+    if(x > y){
+        max = x;
+    }
+    else {
+        max = y;
+    }
+    alert("max = " + max);
+}
+
+{
+    /*Найти максимум из двух чисел - 2 способ*/
+    let x, y, max;
+    x = parseFloat(prompt("Введите первое число"));
+    y = parseFloat(prompt("Введите второе число"));
+    max = x;
+    if(y > max){
+        max = y;
+    }
+    alert("max = " + max);
+}
 
