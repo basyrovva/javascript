@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(252, 240, 255);
+}
+.red{
+    color: rgb(7, 122, 189);
+}
+.border{
+    border: 2px black solid;
+    background-color: bisque;
+}
+.large{
+    font-size: 24px;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 170, 255);
+    border-radius: 50%;
+    transition: transform 1s linear;
+}
+.move{
+    transform: translateX(600px);
+}
