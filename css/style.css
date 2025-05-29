@@ -2,7 +2,7 @@ body{
     background-color: rgb(252, 240, 255);
 }
 .red{
-    color: rgb(7, 122, 189);
+    color: rgb(131, 196, 234);
 }
 .border{
     border: 2px black solid;
@@ -20,4 +20,25 @@ body{
 }
 .move{
     transform: translateX(600px);
+}#divlink{
+    margin-top: 20px;
+}
+a.link{
+    color: rgb(124, 139, 216);
+    background-color: antiquewhite;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+a.link:hover, a.link:focus{
+    text-decoration: line-through;
+}
+.svgimage{
+    margin-top: 100px;
+    transition: transform 1s linear;
+}
+.svgimage img{
+    width: 50px;
 }
